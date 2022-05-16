@@ -2,8 +2,8 @@
 
 
 dineroFacu = prompt("Cuanto dinero tienes Facu ?");
-dineroRoberto = prompt("Cuanto dinero tienes Roberto ?");
-dineroPedro = prompt("Cuanto dinero tienes Pedro ?");
+dineroRoberto = prompt("Cuanto dinero tiene Roberto ?");
+dineroPedro = prompt("Cuanto dinero tiene Pedro ?");
 
 dineroFacu = parseInt(dineroFacu); //Transformamos el texto incresado por teclado en int
 
@@ -38,7 +38,7 @@ else if (dineroFacu >= 2.9) {
 }
 
 else {
-    alert("Lo siento Cofla, pero no te alcanza para nada");
+    alert("Lo siento Facu, pero no te alcanza para nada");
 }
 
 
@@ -68,7 +68,7 @@ else if (dineroRoberto >= 2.9) {
 }
 
 else {
-    alert("Lo siento Roberto, pero no te alcanza para una bosta1");
+    alert("Lo siento Roberto, pero no te alcanza para nada");
 }
 
 
@@ -81,15 +81,15 @@ else if (dineroPedro >= 1 && dineroPedro < 1.6) {
 }
 
 else if (dineroPedro >= 1.6 && dineroPedro < 1.7) {
-    alert("Pedro, comprate el helado marca heladix");
+    alert("Pedro, comprate el helado marca Grido");
 }
 
 else if (dineroPedro >= 1.7 && dineroPedro < 1.8) {
-    alert("Pedro, comprate el helado de marca heladovich");
+    alert("Pedro, comprate el helado de marca 5/25");
 }
 
 else if (dineroPedro >= 1.8 && dineroPedro < 2.9) {
-    alert("Pedro, comprate el helado de marca helardo");
+    alert("Pedro, comprate el helado de marca Lomoro");
 }
 
 else if (dineroPedro >= 2.9) {
@@ -97,5 +97,5 @@ else if (dineroPedro >= 2.9) {
 }
 
 else {
-    alert("Lo siento Pedro, pero no te alcanza para una bosta1");
+    alert("Lo siento Pedro, pero no te alcanza para nada");
 }
