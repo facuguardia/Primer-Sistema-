@@ -2,8 +2,8 @@
 
 
 dineroFacu = prompt("Cuanto dinero tienes Facu ?");
-dineroRoberto = prompt("Cuanto dinero tiene Roberto ?");
-dineroPedro = prompt("Cuanto dinero tiene Pedro ?");
+dineroRoberto = prompt("Cuanto dinero tienes Roberto ?");
+dineroPedro = prompt("Cuanto dinero tienes Pedro ?");
 
 dineroFacu = parseInt(dineroFacu); //Transformamos el texto incresado por teclado en int
 
